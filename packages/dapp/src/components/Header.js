@@ -99,17 +99,6 @@ const Items = () => {
           sign
         </div>
       </Link>
-      <div className=''>
-        |
-      </div>
-      <Link
-        to='/signatures'
-        className={`cursor-pointer hover:text-black no-underline ${pathname === '/signatures' ? 'text-black' : 'text-gray-400'}`}
-      >
-        <div>
-          explore
-        </div>
-      </Link>
     </div>
   )
 }
