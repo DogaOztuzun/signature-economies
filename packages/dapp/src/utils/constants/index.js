@@ -27,8 +27,9 @@ export const addresses =  {
 }
 export {abis}
 export const arweave = {
-  appName: process.env.ARWEAVE_APP_NAME
+  appName: "XYZ-Signature-Economies"
 }
+
 export const etherscan = {
   chainIdToUrl: (id) => {
     switch (id) {
