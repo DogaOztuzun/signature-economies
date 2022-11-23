@@ -27,7 +27,7 @@ export const addresses =  {
 }
 export {abis}
 export const arweave = {
-  appName: "XYZ-Signature-Economies" //isDev ? "XYZ-Signature-Economies-Staging": 
+  appName: process.env.ARWEAVE_APP_NAME
 }
 export const etherscan = {
   chainIdToUrl: (id) => {
