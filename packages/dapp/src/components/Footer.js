@@ -27,18 +27,9 @@ const Footer = () => {
         >
           <div
             className='cursor-pointer text-gray-800 hover:underline border-b-2'
-            onClick={() => window.open('/essay#free-sign', '_self')}
+            onClick={() => window.open('/#free-sign', '_self')}
           >
             sign freely
-          </div>
-          <div>
-            /
-          </div>
-          <div
-            className='cursor-pointer text-gray-800 hover:underline border-b-2'
-            onClick={() => slider.dispatch({ type: 'open' })}
-          >
-            mint a seal
           </div>
         </div>
       </div>

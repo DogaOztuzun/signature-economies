@@ -49,7 +49,7 @@ const Header = () => {
     '
         >
           <div className='flex flex-col'>
-            <div>Signature</div><div>Economies</div>
+            <div>Signature</div><div>Capsules</div>
           </div>
           <div>
             <Items />
@@ -85,29 +85,29 @@ const Items = () => {
         className={`cursor-pointer hover:text-black no-underline ${pathname === '/' ? 'text-black' : 'text-gray-400'}`}
       >
         <div>
-          start
+          Sign
         </div>
       </Link>
       <div>
         |
       </div>
       <Link
-        to='/essay'
+        to='#'
         className={`cursor-pointer hover:text-black no-underline ${pathname === '/essay' ? 'text-black' : 'text-gray-400'}`}
       >
         <div>
-          sign
+          MF70
         </div>
       </Link>
-      <div className=''>
+      <div>
         |
       </div>
       <Link
-        to='/signatures'
-        className={`cursor-pointer hover:text-black no-underline ${pathname === '/signatures' ? 'text-black' : 'text-gray-400'}`}
+        to='#'
+        className={`cursor-pointer hover:text-black no-underline ${pathname === '/essay' ? 'text-black' : 'text-gray-400'}`}
       >
         <div>
-          explore
+          FAQ
         </div>
       </Link>
     </div>

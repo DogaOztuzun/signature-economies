@@ -24,8 +24,8 @@ const App = () => {
                   <SwitchNetworkModal />
                   <SliderModal />
                   <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/essay' element={<Essay />} />
+                    <Route path='/' element={<Essay />} />
+                    {/* <Route path='/essay' element={<Essay />} /> */}
                     <Route path='/signatures' element={<SoulSigns />} />
                     <Route path='/signed/:address' element={<SignedOn />} />
                   </Routes>
