@@ -27,7 +27,7 @@ const Footer = () => {
         >
           <div
             className='cursor-pointer text-gray-800 hover:underline border-b-2'
-            onClick={() => window.open('/essay#free-sign', '_self')}
+            onClick={() => window.open('/#free-sign', '_self')}
           >
             sign freely
           </div>
