@@ -13,6 +13,9 @@ const sign = async (request, response) => {
         const ARWEAVE_JWK = process.env.ARWEAVE_JWK
         const arweaveJwk = JSON.parse(ARWEAVE_JWK)
         
+        console.log("jwk", arweaveJwk)
+        console.log("app name", ARWEAVE_APP_NAME)
+        
         const gateway = {
             host: 'arweave.net',
             port: 443,
