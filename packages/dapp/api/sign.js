@@ -15,7 +15,7 @@ const sign = async (request, response) => {
         
         console.log("jwk", arweaveJwk)
         console.log("app name", ARWEAVE_APP_NAME)
-        
+
         const gateway = {
             host: 'arweave.net',
             port: 443,
@@ -37,8 +37,8 @@ const sign = async (request, response) => {
         const key = arweaveJwk
         console.log(request.body)
 
-        // const body = JSON.parse(request.body)
-        const body = request.body;
+        const body = JSON.parse(request.body)
+        // const body = request.body;
 
         console.log('signing', body.signature, body.account)
 
