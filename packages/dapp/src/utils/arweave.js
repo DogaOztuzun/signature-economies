@@ -13,7 +13,7 @@ const arweaveQuery = axios.create({
 
 // upload to arweave
 export const uploadToArweave = async ({ signature, account }) => {
-  const url = isDev ? weaver : '/rpc/sign'
+  const url = isDev ? weaver : '/api/sign'
   await axios.post(url, JSON.stringify({ signature, account }), {
     headers: {
       'content-type': 'application/json'
