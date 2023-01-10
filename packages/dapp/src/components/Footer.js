@@ -31,7 +31,7 @@ const Footer = () => {
           >
             sign freely
           </div>
-          <div>
+          {/* <div>
             /
           </div>
           <div
@@ -39,7 +39,7 @@ const Footer = () => {
             onClick={() => slider.dispatch({ type: 'open' })}
           >
             mint a seal
-          </div>
+          </div> */}
         </div>
       </div>
     </>
