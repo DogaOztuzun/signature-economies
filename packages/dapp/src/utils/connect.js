@@ -3,7 +3,7 @@ import { InjectedConnector } from 'wagmi/connectors/injected'
 import { providers } from 'ethers'
 import { isDev } from './constants'
 
-const chainId = isDev ? 4 : 137
+const chainId = isDev ? 5 : 137
 
 const chains = allChains.filter(c => c.id === chainId)
 
