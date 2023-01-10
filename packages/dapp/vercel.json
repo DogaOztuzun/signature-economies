@@ -1,0 +1,7 @@
+{
+    "functions": {
+      "api/sign.js": {
+        "memory": 1024
+      }
+    }
+  }

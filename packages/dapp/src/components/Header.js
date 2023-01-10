@@ -99,7 +99,7 @@ const Items = () => {
           sign
         </div>
       </Link>
-      <div className=''>
+      {/* <div className=''>
         |
       </div>
       <Link
@@ -109,7 +109,7 @@ const Items = () => {
         <div>
           explore
         </div>
-      </Link>
+      </Link> */}
     </div>
   )
 }
