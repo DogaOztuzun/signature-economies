@@ -49,7 +49,7 @@ const Header = () => {
     '
         >
           <div className='flex flex-col'>
-            <div>Signature</div><div>Economies</div>
+            <div>Bu Başka</div><div>Bir Oyun</div>
           </div>
           <div>
             <Items />
