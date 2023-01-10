@@ -132,6 +132,7 @@ const Queries = {
     }
   },
   getSignatureCount: (cursor) => {
+    console.log("appName", arweave.appName);
     return {
       query: GET_SIGNATURE_COUNT,
       variables: {
